@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+
+:root{
+    --ff:'Poppins', sans-serif;
+    --ff2:'Abril Fatface', cursive;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* ==============
+common css ends
+================= */
+.banner-bg{
+    height: 100vh;
+    background: transparent;
+}
+.banner-bg .banner{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-bg .banner h2{
+    text-transform: uppercase;
+    font-family: var(--ff);
+    font-size: 40px;
+    font-weight: 700;
+    color: #f1f1f1;
+}
+/* ===============
+banner css ends
+================= */
+.feedback-bg .feedback{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.feedback-bg .feedback .image{
+    height: 200px;
+    width:300px;
+    border: 5px solid #1b28de;
+    box-shadow: 0px 0px 5px 1px #1f1d1d;
+    box-sizing: border-box;
+    position: relative;
+}
+.feedback-bg .feedback .image img{
+    height:300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+}
+.feedback-bg .feedback .content{
+    height: 300px;
+    width: 600px;
+    border: 3px solid #ce1bde;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px #1f1d1d;
+}
+.feedback-bg .feedback .content{
+    text-align: center;
+}
+.feedback-bg .feedback .content p{
+    font-size: 15px;
+    font-family: var(--ff);
+    color: #f7b68b;
+    margin:110px 0;
+}
